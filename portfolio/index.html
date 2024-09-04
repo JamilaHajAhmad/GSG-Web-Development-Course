@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Home section -->
+    <div class="hero" id="home">
+        <h2 class="logo">Portfolio</h2>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h2>Hello, I'm <span>Jamila HajAhmad👋</span></h2>
+            <h1><span>Frontend</span> <br> Developer</h1>
+            <p>I'm a frontend developer with a passion for <br> creating engaging and user-friendly experiences</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+            <a href="https://flowcv.com/resume/6kt4g6h98v" target="_blank" class="btn">Show Resume</a>
+        </div>
+    </div>
+
+    <!-- About Me section -->
+    <div class="about" id="about">
+        <h2>About Me</h2>
+        <p>As a passionate and dedicated front-end developer, I specialize in creating responsive, user-friendly,
+        and visually appealing web interfaces. With a strong foundation in HTML, CSS, JavaScript,
+        I bring designs to life with precision and creativity. My focus is on delivering seamless user
+        experiences through clean code, innovative solutions, and a keen eye for detail. I thrive on challenges
+        and continuously seek to learn and adapt to the ever-evolving world of web development.
+        Let's collaborate to turn ideas into engaging digital experiences.<br>
+        <marquee width="100%" scrollamount="5" loop="-1" style="color:white;background-color: #7C00FE">
+        I'm applying to this program to enhance my skills in creating visually appealing and user-friendly
+        web applications, aligning with current industry demands.
+        </marquee>
+        </p>
+    </div>
+
+    <!-- Services section -->
+    <div class="services" id="services">
+        <h2>My Services</h2>
+        <div class="content">
+            <div class="service">
+                <i class="fas fa-code"></i>
+                <h3>Front-End Development</h3>
+                <p>Building efficient, maintainable, and scalable front-end solutions using HTML, CSS, JavaScript</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h3>Responsive Web Design</h3>
+                <p>Crafting visually appealing and fully responsive websites that provide an optimal user experience on any device</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-paint-brush"></i>
+                <h3>UI/UX Design</h3>
+                <p>Translating design prototypes into interactive, user-friendly interfaces with a focus on usability and accessibility</p>
+            </div>
+            <div class="service">
+                <i class="fa-brands fa-git-alt" style="font-size: 40px;"></i>
+                <h3>Version Control & Collaboration</h3>
+                <p>Utilizing Git and GitHub for version control, allowing smooth collaboration and project management</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <h3>Custom Web Animations</h3>
+                <p>Creating engaging animations using CSS and JavaScript to enhance user interaction and website appeal</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-award"></i>
+                <h3>Website Optimization</h3>
+                <p>Enhancing website performance through code optimization, reducing load times, and ensuring compatibility across all major browsers</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills section -->
+    <div class="skills" id="skills">
+        <div class="image-and-heading">
+            <h2>My Skills</h2>
+            <img src="./images/skills.gif" alt="" width="110%">
+        </div>
+        <div class="content">
+            <div class="skill">
+                <h3>HTML5</h3>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 95%" data-skill="95%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS3</h3>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%" data-skill="90%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript(ES6)</h3>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 85%" data-skill="85%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>SASS</h3>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%" data-skill="80%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Webpack (Software Build Tool)</h3>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 75%" data-skill="75%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Git & GitHub</h3>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 96%" data-skill="96%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Me section -->
+    <div class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="content">
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><i class="fa-solid fa-envelope"></i><span>Email:</span> jamila.haj.ahmad15@hotmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i><span>Phone:</span> +970 569 388 731</p>
+                <p><i class="fa-solid fa-location-dot"></i><span>Address:</span> Palestine, Jenin, Arraba Town</p>
+                <div class="social"><i class="fa-solid fa-hashtag"></i><span>Social Media:</span><br>
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy;-2024 <span>Jamila HajAhmad</span>. All rights reserved.</p>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/jamila-hajahmad"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/JamilaHajAhmad"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

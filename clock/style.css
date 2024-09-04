@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+#clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+#clock span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-right: 15px;
+    padding: 40px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    background-color: #DAD4B5;
+    position: relative;
+}
+
+#clock span::after {
+    content: attr(data-hold);
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+#clock span:first-of-type::before,
+#clock span:nth-of-type(2)::before {
+    content: ":";
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    right: -15px;
+}
