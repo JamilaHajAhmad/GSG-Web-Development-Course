@@ -1,0 +1,87 @@
+body {
+    padding: 0 30px 30px 30px;
+}
+
+.header {
+    background-color: #444;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.left {
+    flex-basis: 66%; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content {
+    background-color: #999;
+    height: 300px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.item {
+    background-color: #ddd;
+    width: calc(20% - 25px);
+    height: 100px;
+}
+
+.right {
+    flex-basis: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right .top {
+    background-color: #bbb;
+    height: 300px; 
+}
+
+.hr {
+    width: 100%;
+    height: 30px;
+    background-color: #444;
+}
+
+.right .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.first,
+.second {
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    height: 40px;
+    padding: 20px;
+}
+
+.first .square,
+.second .square {
+    width: 80px;
+    height: 80px;
+    background-color: #ccc;
+}
+
+
